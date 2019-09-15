@@ -60,17 +60,17 @@
         {
             "type": "TEC Enova - Dashboard",
             "url": "http://172.16.165.11/devita/product/handbag-fringilla/",
-            "load": 50
+            "load": 5
         },
         {
             "type": "TEC Enova - Dashboard",
             "url": "http://172.16.165.12/devita/product/handbag-lobortis/",
-            "load": 50
+            "load": 5
         },
         {
             "type": "TEC Enova - Dashboard",
             "url": "http://172.16.165.13/devita/product/handbags-rutrum/",
-            "load": 50
+            "load": 5
         }
     ]
 }
