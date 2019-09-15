@@ -30,17 +30,17 @@
         {
             "type": "TEC Enova - Cache",
             "url": "http://172.16.165.11/devita/cache.php",
-            "load": 30
+            "load": 10
         },
         {
             "type": "TEC Enova - Cache",
             "url": "http://172.16.165.12/devita/cache.php",
-            "load": 30
+            "load": 10
         },
         {
             "type": "TEC Enova - Cache",
             "url": "http://172.16.165.13/devita/cache.php",
-            "load": 30
+            "load": 10
         },
         {
             "type": "TEC Enova - Network Dashboard",
