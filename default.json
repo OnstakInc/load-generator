@@ -1,0 +1,76 @@
+{
+    "requestInterval": 5000,
+    "endpoints": [
+        {
+            "type": "TEC SQL Server",
+            "url": "http://172.16.189.36:8080/api/v1/sales",
+            "load": 1000
+        },
+        {
+            "type": "TEC SQL Server",
+            "url": "http://172.16.189.36:8080/api/v1/persons",
+            "load": 1000
+        },
+
+        {
+            "type": "TEC Enova - Errors",
+            "url": "http://172.16.165.11/devita/error.php",
+            "load": 100
+        },
+        {
+            "type": "TEC Enova - Errors",
+            "url": "http://172.16.165.12/devita/error.php",
+            "load": 100
+        },
+        {
+            "type": "TEC Enova - Errors",
+            "url": "http://172.16.165.13/devita/error.php",
+            "load": 100
+        },
+        {
+            "type": "TEC Enova - Cache",
+            "url": "http://172.16.165.11/devita/cache.php",
+            "load": 30
+        },
+        {
+            "type": "TEC Enova - Cache",
+            "url": "http://172.16.165.12/devita/cache.php",
+            "load": 30
+        },
+        {
+            "type": "TEC Enova - Cache",
+            "url": "http://172.16.165.13/devita/cache.php",
+            "load": 30
+        },
+        {
+            "type": "TEC Enova - Network Dashboard",
+            "url": "http://172.16.165.11:8080/api/v1/users",
+            "load": 100
+        },
+        {
+            "type": "TEC Enova - Network Dashboard",
+            "url": "http://172.16.165.12:8080/api/v1/users",
+            "load": 100
+        },
+        {
+            "type": "TEC Enova - Network Dashboard",
+            "url": "http://172.16.165.13:8080/api/v1/users",
+            "load": 100
+        },
+        {
+            "type": "TEC Enova - Dashboard",
+            "url": "http://172.16.165.11/devita/product/handbag-fringilla/",
+            "load": 50
+        },
+        {
+            "type": "TEC Enova - Dashboard",
+            "url": "http://172.16.165.12/devita/product/handbag-lobortis/",
+            "load": 50
+        },
+        {
+            "type": "TEC Enova - Dashboard",
+            "url": "http://172.16.165.13/devita/product/handbags-rutrum/",
+            "load": 50
+        }
+    ]
+}
